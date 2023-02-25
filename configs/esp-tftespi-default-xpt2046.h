@@ -187,7 +187,7 @@ extern "C" {
   // - For memory constrained devices such as Arduino, it is best to
   //   set the following features to 0 (to disable) unless they are
   //   required.
-  #define GSLC_FEATURE_COMPOUND       0   // Compound elements (eg. XSelNum)
+  #define GSLC_FEATURE_COMPOUND       1   // Compound elements (eg. XSelNum)
   #define GSLC_FEATURE_XTEXTBOX_EMBED 0   // XTextbox control with embedded color
   #define GSLC_FEATURE_INPUT          0   // Keyboard / GPIO input control
 
