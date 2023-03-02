@@ -127,8 +127,8 @@ extern "C" {
   //   in TFT_eSPI's User_Setup.h is commented out.
 
   // Touch bus & pinout
-  #define XPT2046_CS     22
-  #define XPT2046_IRQ    32 // IRQ pin or 255 if no IRQ used
+  #define XPT2046_CS     12
+  #define XPT2046_IRQ    27 // IRQ pin or 255 if no IRQ used
 
 
   // . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
